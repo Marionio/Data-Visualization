@@ -18,7 +18,7 @@ color_blue = mpl.cm.Blues(np.linspace(0,0.5,10))
 color_blue = mpl.colors.ListedColormap(color_blue)
 im_blue = '#5AAADC' 
 
-bank_data = pd.read_csv("US-Failed-Banks/banklist.csv") # https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/index.html FDIC failed banking institutions
+bank_data = pd.read_csv("US-Failed-Banks/banklist.csv") # https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/index.html FDIC failed banking institutions (03/13/23)
 cities_data = pd.read_csv("US-Failed-Banks/uscities.csv") # https://simplemaps.com/data/us-cities aid dataset
 contiguous_usa = geopandas.read_file(geoplot.datasets.get_path('contiguous_usa')) #geoplot native us data
 
