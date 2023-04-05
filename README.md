@@ -13,6 +13,6 @@ Failed Banks in the US:
 
 ![](US-Failed-Banks/map.gif) 
 
-DoorDash Data :
+DoorDash Data:
 
-![](DoorDash%20Data/Excel_Report.png)
+![](DoorDash-Data/Excel_Report.png)
